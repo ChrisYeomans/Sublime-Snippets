@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+for ${1:i} in range(len(${2:iterable})):
+	${3:# code here}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>rfor</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>
