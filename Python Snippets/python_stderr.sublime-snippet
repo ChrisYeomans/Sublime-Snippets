@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-sys.stderr.write(${1:here})
+sys.stderr.write(${2:here}${1:+'\n'})
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>err</tabTrigger>
